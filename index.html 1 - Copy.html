@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+
+<body>
+    <h2>Hallo! Saya Lagi Belajar Javasript</h2>
+    <div id="data"></div>
+    <script>
+        //alert('Hello World');
+        for (var i = 0; i < 5; i++) {
+             //versi muncul browser
+             document.write("<h4> Ini adalah perulangan ke-" + i + "</h4>");
+
+            //versi muncul console
+            console.log ("Ini adalah perulangan ke -" + i);
+        }
+    
+            var text = "";
+            for (var i = 0; i < 5; i++) {
+                text += "Nilai saat ini adalah " + i
+                + "<br>";
+                document.getElementById("data").
+                innerHTML = text;
+             }
+    </script>
+</body>
+</html>
